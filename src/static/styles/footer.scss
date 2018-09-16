@@ -1,0 +1,132 @@
+footer {
+    
+    background: #000;
+    width: 100%;
+}
+
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content__main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+
+}
+.footer-content__left-name,.footer-content__left-contact,.footer-content__left-adress,.footer-content__left-contact,.footer-content__right,.footer-content__middle-title{
+    color: #fff;
+    font-family: "ptSans";
+}
+
+.footer-content__left{
+    width: 30%;
+}
+
+.footer-content__middle-icons{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    
+    
+  
+    
+}
+.icons__list{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.icons-vk {
+    width: 30px;
+    height: 30px;
+    background-image:url(../img/vk-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid gray;
+   
+
+}
+
+.icons-fb{
+    width: 30px;
+    height: 30px;
+    background-image:url(../img/facebook-icon.png);
+    background-repeat: no-repeat;
+    border: 1px solid gray;
+    background-position: center;
+}
+
+.icons-inst {
+    width: 30px;
+    height: 30px;
+    background-image:url(../img/insta-icon.png);
+    background-repeat: no-repeat;
+    border: 1px solid gray;
+    background-position: center;
+}
+.footer-content__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 40%;
+    
+}
+
+
+.footer-content__right {
+    min-width: 40%;
+    
+}
+
+.footer-content__right-contain{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.footer-right__containt-position{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    min-width: 40%;
+    
+}
+
+.footer-content__middle-contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.footer-content__right-organization {
+    margin-top: 15px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-content__left-info{
+    margin-top: 8px;
+    font-size: 15px;
+    
+}
+
+.footer-content__right-developed {
+    display: flex;
+    justify-content: center;
+    width: 52%;
+}

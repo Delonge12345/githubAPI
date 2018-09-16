@@ -1,0 +1,152 @@
+section-news {
+    
+    width: 100%;
+    min-height: 420px;
+   
+}
+
+.news-content__top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.news-content__top-left{
+    width: 50%; 
+    height: 0;
+    border-top: 100px  solid  #161a1f;
+    border-left: 730px solid transparent;
+    
+    
+}
+.news-content__top-right{
+    width: 50%; 
+    height: 0;
+    border-top:  100px solid #161a1f;;
+    border-right: 730px solid transparent;
+}
+
+.news-content__middle{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.news-content__middle-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 30px;
+    font-family: "ptSans";
+    font-weight: bold;
+    
+}
+
+.news-content__middle-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width:50%;
+    
+}
+.news-content__show-link{
+    display: flex;
+    justify-content: center;
+    width: 140px;
+    height: 30px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    font-family: "ptSans";
+    
+    
+    
+}
+.news-link__show{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    font-family: "ptSans";
+    text-decoration: none;
+}
+
+
+.news-content__bottom{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    font-family: "ptSans";
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    line-height: 1.5;
+   
+    
+}
+
+
+
+.news-content__bottom-left,.news-content__bottom-middle,.news-content__bottom-right {
+    height: 200px;
+    
+}
+.news-content__left,.news-content__center,.news-content__right{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.news-calendar__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.news-content__calendar-one,.news-content__calendar-two,.news-content__calendar-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #000;
+    
+   
+}
+
+.news-calendar-one__triangle,.news-calendar-two__triangle,.news-calendar-three__triangle{
+    width: 0; 
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 16px solid #000;
+  
+}
+
+.main-text__black{
+    width: 215px;
+    padding-left: 20px;
+    font-size:16px;
+    font-family: "ptSans";
+   
+   
+}
+
+.news-calendar__one-number,.news-calendar__second-number,.news-calendar__third-number{
+    color: #fff;
+    
+}
+
+.news-calendar__month{
+    color: #fff;
+}
+
+
+.news-content__title{
+    font-size: 40px;
+    font-family: "ptSans";
+    font-weight: bold;
+}
+
