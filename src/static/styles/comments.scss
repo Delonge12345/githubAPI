@@ -9,7 +9,7 @@ section-comments {
 }
 .comments-content__top,.comments-content__middle,.comments-content__bottom{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 .comments-content__top{
@@ -51,11 +51,12 @@ section-comments {
     font-family: "ptSans";
     text-decoration: none;
 }
-.comments-content__middle-slider{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
+// .comments-content__middle-slider{
+//     display: flex;
+//     justify-content: space-between;
+  
+//     width: 100%;
+// }
 .slider__left-button{
     justify-content: center;
     align-items: center;    
@@ -63,7 +64,7 @@ section-comments {
     width: 40px;
     border:1px solid gray;
 }
-.left-button__triangle{
+.left-button__triangle,{
     width: 0; 
     height: 0;
     border-top: 10px solid transparent;
@@ -154,3 +155,6 @@ section-comments {
       font-family: "ptSans";
       src: url(../fonts/pt-sans.ttf);
   }
+
+  
+  
