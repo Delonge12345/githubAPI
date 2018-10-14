@@ -60,7 +60,7 @@ section-comments {
 .slider__left-button{
     justify-content: center;
     align-items: center;    
-    display: flex;
+    display: flex !important;
     width: 40px;
     border:1px solid gray;
 }
@@ -96,7 +96,7 @@ section-comments {
     font-weight: bold;
 }
 .slider__right-button{
-    display: flex;
+    display: flex !important;
     justify-content: center;
     align-items: center;
     width: 40px;
@@ -110,20 +110,27 @@ section-comments {
 }
 .slider__description-content{
     width: 60%;
+    
 }
 .slider-content__middle{
     display: flex;
     justify-content: space-around;
+    width: 50%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
 }
 .slider-img__direction-contain{
     width: 680px;
     display: flex;
-    height: 100px
+    height: 100px;
+    
+    
 }
 
 .slider-img__description{
     display: flex;
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     height: 100px;
 }
 .comments-content__bottom-switch{

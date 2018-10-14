@@ -16,6 +16,8 @@ nav{
     padding: 0;
     margin: 0;
     width: 100%;
+    list-style-type: none;
+     outline:0;
     // background-image:url(../img/login.png);
     
 }
@@ -36,10 +38,11 @@ li.header-nav a {
     color: #fff;
     font-family: "ptSans";
     
+    
 }
 
 li.header-nav:hover,.header-nav__log :hover{
-   
+    margin-top: -1px;
     border-bottom: 1px solid orange;
 }
 .header-nav__log .exit {
