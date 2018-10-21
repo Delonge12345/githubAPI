@@ -4,8 +4,12 @@ $(document).ready(function () {
     infinite: true,
     prevArrow: $('.slider__left-button'),
     nextArrow: $('.slider__right-button'),
+  
+  
     
   });
-
+  
 });
+
+
 
