@@ -77,7 +77,7 @@ h2.review{
 .form-row textarea {
   width: 100%;
   padding: 0 10px;
-  line-height: 35px;
+
   border-width: 0;
   outline: none;
   background: #fff;
@@ -111,9 +111,9 @@ h2.review{
 
 .pop-up{
     position: absolute;
-    height: 570px;
+    height: 430px;
     left: 115%;
-    bottom:-70%;
+    bottom:-50%;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
      max-width: 350px;
