@@ -146,7 +146,27 @@ html(lang='en')
                       h1.comments-content__about-title Отзывы о нас
                   .comments-content__top-right
                     .comments-content__top-link  
-                      a.comments-content__selfs-link(href='#') Оставить свой
+                      span.comments-content__selfs-link Оставить свой
+                    .overlay
+                      .pop-up
+                            h2.review Оставьте отзыв о нашем барбершопе:
+                            form.postcard(action='')
+                              .form-row
+                                label(for='name') Ваше имя
+                                input#name(type='text', required='')
+                              .form-row
+                                label(for='email') Ваш Email
+                                input#email(type='email', required='')
+                              .form-row
+                                label(for='message') Ваше сообщение
+                                textarea#message(rows='5', required='')
+                              .form-row
+                                input(type='submit', value='Отправить сообщение') 
+                            .close-popup
+                              .js-close__compaign  
+
+
+
                 .comments-content__middle
                     .slider__left-button
                       .left-button__triangle
@@ -218,6 +238,7 @@ html(lang='en')
       
       script(src='static/js/libs.min.js')
       script(src='static/js/navigation.js')
+      script(src='static/js/popup.js')
       script(src='static/js/main.js')
      
       

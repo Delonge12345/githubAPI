@@ -1,6 +1,6 @@
 $(document).ready(function(){
     let touch = $('.touch-menu');
-    let line = $('.line')
+    
     let menu = $('nav');
 
 $(touch).on('click', function(e) {

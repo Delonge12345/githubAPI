@@ -5,6 +5,7 @@ module.exports = function() {
         includes.gulp.watch('src/static/styles/**/*.scss',includes.gulp.series('sass'));
         includes.gulp.watch('src/static/js/main.js',includes.gulp.series('scripts'));
         includes.gulp.watch('src/static/js/navigation.js',includes.gulp.series('scripts'));
+        includes.gulp.watch('src/static/js/popup.js',includes.gulp.series('scripts'));
         
     });
 }

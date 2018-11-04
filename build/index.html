@@ -184,7 +184,32 @@
                 </div>
               </div>
               <div class="comments-content__top-right">
-                <div class="comments-content__top-link"> <a class="comments-content__selfs-link" href="#">Оставить свой</a></div>
+                <div class="comments-content__top-link"> <span class="comments-content__selfs-link">Оставить свой</span></div>
+                <div class="overlay">
+                  <div class="pop-up">
+                    <h2 class="review">Оставьте отзыв о нашем барбершопе:</h2>
+                    <form class="postcard" action="">
+                      <div class="form-row">
+                        <label for="name">Ваше имя</label>
+                        <input id="name" type="text" required=""/>
+                      </div>
+                      <div class="form-row">
+                        <label for="email">Ваш Email</label>
+                        <input id="email" type="email" required=""/>
+                      </div>
+                      <div class="form-row">
+                        <label for="message">Ваше сообщение</label>
+                        <textarea id="message" rows="5" required=""></textarea>
+                      </div>
+                      <div class="form-row">
+                        <input type="submit" value="Отправить сообщение"/>
+                      </div>
+                    </form>
+                    <div class="close-popup">
+                      <div class="js-close__compaign"> </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="comments-content__middle">
@@ -293,6 +318,7 @@
     </div>
     <script src="static/js/libs.min.js"></script>
     <script src="static/js/navigation.js"></script>
+    <script src="static/js/popup.js"></script>
     <script src="static/js/main.js"></script>
   </body>
 </html>

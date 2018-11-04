@@ -28,4 +28,12 @@ module.exports = function () {
                 stream:true
             }));
     });
+
+    includes.gulp.task('scripts', function () {
+        return includes.gulp.src('src/static/js/popup.js')
+            .pipe(includes.gulp.dest('build/static/js/'))
+            .pipe(includes.browserSync.reload({
+                stream:true
+            }));
+    });
 };
