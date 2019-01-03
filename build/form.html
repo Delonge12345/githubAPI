@@ -7,6 +7,22 @@
     <link rel="stylesheet" href="static/css/main.css"/>
   </head>
   <body>
+    <div class="preloader">
+      <div class="cssload-container">
+        <div class="cssload-cube">
+          <div class="cssload-half1">
+            <div class="cssload-side cssload-s1"></div>
+            <div class="cssload-side cssload-s2"></div>
+            <div class="cssload-side cssload-s5"></div>
+          </div>
+          <div class="cssload-half2">
+            <div class="cssload-side cssload-s3"></div>
+            <div class="cssload-side cssload-s4"></div>
+            <div class="cssload-side cssload-s6"></div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="wrapper">
       <header> 
         <div class="container">
@@ -26,13 +42,13 @@
       <content>
         <div class="content-piscture__form">
           <div class="container">
-            <div class="logo-position">
-              <div class="logo"></div>
+            <div class="logo-position__form">
+              <div class="logo-form"></div>
             </div>
           </div>
         </div>
         <div class="section-form">
-          <div class="form-content__top"> 
+          <div class="form-content__top">
             <div class="form-content__top-left"></div>
             <div class="form-content__top-right"></div>
           </div>
@@ -40,7 +56,7 @@
             <div class="form-main">
               <div class="form-main__capture">
                 <div class="form-hair">
-                  <h1 class="form-writeable">Запись на стрижку</h1>
+                  <h1 class="form-writeable">ЗАПИСЬ НА СТРИЖКУ</h1>
                 </div>
                 <div class="form-to">
                   <div class="form-link"><a class="form-to__main" href="#">На главную</a></div>
@@ -48,13 +64,13 @@
               </div>
               <form class="form">
                 <div class="form-main__data">
-                  <input class="name" type="name" placeholder="Имя" required=""/>
-                  <input class="surname" type="surname" placeholder="Фамилия" required=""/>
-                  <input class="patronymic" type="patronymic" placeholder="Отчество" required=""/>
+                  <input class="name" type="text" placeholder="Имя" required=""/>
+                  <input class="surname" type="text" placeholder="Фамилия" required=""/>
+                  <input class="patronymic" type="text" placeholder="Отчество" required=""/>
                 </div>
                 <div class="form-contact__data">
-                  <input class="phone" type="phone" placeholder="Контактный телефон" required=""/>
-                  <input class="mail" type="email" placeholder="Контактный email" required=""/>
+                  <input class="phone" type="text" placeholder="Контактный телефон" required=""/>
+                  <input class="mail" type="text" placeholder="Контактный email" required=""/>
                 </div>
                 <div class="form-text__data">
                   <textarea class="message" rows="5" placeholder="Доп.информация для мастера" required=""></textarea>
@@ -111,40 +127,42 @@
           <div class="selection-services">
             <h1 class="additional-services lntxt">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</h1>
           </div>
-          <ul class="beard-services">
-            <li class="beard-color">
-              <input class="service-color" type="checkbox" checked="checked" id="ser-1" name="ser-1"/>
-              <label class="service-color__text" for="ser-1"> </label>
-              <h1 class="color-beard">Подкрасить бороду</h1>
-            </li>
-            <li class="beard-comb">
-              <input class="service-comb" type="checkbox" checked="checked" id="ser-2" name="ser-2"/>
-              <label class="service-comb__text" for="ser-2"> </label>
-              <h1 class="color-beard">Причесать бороду</h1>
-            </li>
-            <li class="beard-remove">
-              <input class="service-remove" type="checkbox" checked="checked" id="ser-3" name="ser-3"/>
-              <label class="service-remove__text" for="ser-3"></label>
-              <h1 class="color-beard">Убрать седину</h1>
-            </li>
-          </ul>
-          <ul class="hair-services">
-            <li class="mustache">
-              <input class="service-mustache" type="checkbox" checked="checked" id="ser-4" name="ser-4"/>
-              <label class="service-mustache__text" for="ser-4"> </label>
-              <h1 class="color-beard">Накрутить усы</h1>
-            </li>
-            <li class="trim-temple"> 
-              <input class="trim-temple" type="checkbox" checked="checked" id="ser-5" name="ser-5"/>
-              <label class="trim-temple__text" for="ser-5"> </label>
-              <h1 class="color-beard">Подровнять виски</h1>
-            </li>
-            <li class="polish-bald">
-              <input class="polish-bald" type="checkbox" checked="" id="ser-6" name="ser-6"/>
-              <label class="polish-bald__text" for="ser-6"> </label>
-              <h1 class="color-beard">Отполировать лысину</h1>
-            </li>
-          </ul>
+          <div class="beard-hair__ul">
+            <ul class="beard-services">
+              <li class="beard-color">
+                <input class="service-color" type="checkbox" id="ser-1" name="ser-1"/>
+                <label class="service-color__text" for="ser-1"> </label>
+                <h1 class="color-beard">Подкрасить бороду</h1>
+              </li>
+              <li class="beard-comb">
+                <input class="service-comb" type="checkbox" id="ser-2" name="ser-2"/>
+                <label class="service-comb__text" for="ser-2"> </label>
+                <h1 class="color-beard">Причесать бороду</h1>
+              </li>
+              <li class="beard-remove">
+                <input class="service-remove" type="checkbox" id="ser-3" name="ser-3"/>
+                <label class="service-remove__text" for="ser-3"></label>
+                <h1 class="color-beard">Убрать седину</h1>
+              </li>
+            </ul>
+            <ul class="hair-services">
+              <li class="mustache">
+                <input class="service-mustache" type="checkbox" ="" id="ser-4" name="ser-4"/>
+                <label class="service-mustache__text" for="ser-4"> </label>
+                <h1 class="color-beard">Накрутить усы</h1>
+              </li>
+              <li class="trim-temple"> 
+                <input class="trim-temple" type="checkbox" id="ser-5" name="ser-5"/>
+                <label class="trim-temple__text" for="ser-5"> </label>
+                <h1 class="color-beard">Подровнять виски</h1>
+              </li>
+              <li class="polish-bald">
+                <input class="polish-bald" type="checkbox" id="ser-6" name="ser-6"/>
+                <label class="polish-bald__text" for="ser-6"> </label>
+                <h1 class="color-beard">Отполировать лысину</h1>
+              </li>
+            </ul>
+          </div>
           <div class="send-selection__request">
             <button class="selection-request"><a class="button-selection__text">ОТПРАВИТЬ ЗАЯВКУ</a></button>
           </div>
@@ -158,19 +176,20 @@
                 <div class="footer-content__left-contain">
                   <p class="footer-content__left-name">БАРБЕРШОП БОРОДИНСКИЙ</p>
                   <div class="footer-content__left-info">
-                    <p class="footer-content__left-adress">г.Санкт-Петербург, ул.Большая Конюшенная 19/8</p>
-                    <p class="footer-content__left-contact">Тел.:+7(812) 555-66-66</p>
+                    <p class="footer-content__left-adress">г.Санкт-Петербург, ул.Большая Конюшенная 19/8</p><a class="footer-content__left-contact" href="#">Тел.:+7(812) 555-66-66</a>
                   </div>
                 </div>
               </div>
               <div class="footer-content__middle">
                 <div class="footer-content__middle-contain">
-                  <p class="footer-content__middle-title">Давайте дружить!</p>
+                  <div class="footer-content__p">
+                    <p class="footer-content__middle-title">Давайте дружить!</p>
+                  </div>
                   <div class="footer-content__middle-icons">
                     <ul class="icons__list">
-                      <li class="icons-vk"><a class="vk" href="#"> </a></li>
-                      <li class="icons-fb"><a class="fb" href="#"> </a></li>
-                      <li class="icons-inst"><a class="inst" href="#"> </a></li>
+                      <li class="icons-vk"><a class="vk" href="https://vk.com"> </a></li>
+                      <li class="icons-fb"><a class="fb" href="https://www.facebook.com"> </a></li>
+                      <li class="icons-inst"><a class="inst" href="https://www.instagram.com/"> </a></li>
                     </ul>
                   </div>
                 </div>
@@ -179,12 +198,7 @@
                 <div class="footer-content__right-contain">
                   <div class="footer-right__containt-position">
                     <p class="footer-content__right-developed">Разработано:</p>
-                    <p class="footer-content__right-organization">HTML ACADEMY
-                      <script src="static/js/libs.min.js"></script>
-                      <script src="static/js/navigation.js"></script>
-                      <script src="static/js/preloader.js"></script>
-                      <script src="static/js/main.js"></script>
-                    </p>
+                    <div class="footer-content__right-border"><a class="footer-content__right-organization" href="#">HTML ACADEMY</a></div>
                   </div>
                 </div>
               </div>
@@ -192,6 +206,10 @@
           </div>
         </div>
       </footer>
+      <script src="static/js/libs.min.js"></script>
+      <script src="static/js/navigation.js"></script>
+      <script src="static/js/preloader.js"></script>
+      <script src="static/js/main.js"></script>
     </div>
   </body>
 </html>

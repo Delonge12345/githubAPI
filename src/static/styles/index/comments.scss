@@ -21,7 +21,7 @@ section-comments {
     align-items: center;
     width: 50%;
     font-size: 30px;
-    font-family: "ptSans";
+    font-family: 'PT Sans', sans-serif;
     font-weight: bold;
 }
 .comments-contentent__top-about{
@@ -56,12 +56,17 @@ section-comments {
     background-color: rgba(0,0,0,0.4);
 }
 .comments-content__selfs-link{
+    text-decoration: none;
     font-size: 20px;
     font-weight: bold;
     color: #000;
-    font-family: "ptSans";
+    font-family: 'PT Sans', sans-serif;
     text-decoration: none;
-    cursor: pointer;
+    
+}
+
+.comments-content__selfs-link:hover {
+    color:#826550;
 }
 
 
@@ -79,7 +84,7 @@ section-comments {
 h2.review{
     font-size: 20px;
     width: 70%;
-    font-family: 'Playfair Display';
+    font-family: 'PT Sans', sans-serif;
     color: #fff;
     
 }
@@ -96,7 +101,7 @@ h2.review{
   outline: none;
   background: #fff;
   background-size: 8px 35px;
-  font-family: 'Playfair Display';
+  font-family: 'PT Sans', sans-serif;
   color: #222;
   border: 1px solid black;
 }
@@ -127,7 +132,7 @@ h2.review{
     position: absolute;
     height: 430px;
     width: 265px;
-    left: 115%;
+    left: 50%;
     bottom:-50%;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
@@ -286,7 +291,9 @@ h2.review{
     background: #000;
 }
 
-
+.slider__left-button,.slider__right-button {
+cursor: pointer;
+}
     @font-face {
       font-family: "ptSans";
       src: url(../fonts/pt-sans.ttf);

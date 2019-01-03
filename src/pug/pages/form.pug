@@ -1,0 +1,146 @@
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    
+    link(rel="stylesheet", href="static/css/main.css")
+    
+    block title
+       
+  body
+      .preloader
+        .cssload-container
+          .cssload-cube
+            .cssload-half1
+              .cssload-side.cssload-s1
+              .cssload-side.cssload-s2
+              .cssload-side.cssload-s5
+            .cssload-half2
+              .cssload-side.cssload-s3
+              .cssload-side.cssload-s4
+              .cssload-side.cssload-s6
+
+      .wrapper
+      
+        include ../sections/header
+        
+        content
+            .content-piscture__form
+              .container
+                  .logo-position__form
+                    .logo-form
+            .section-form
+                .form-content__top
+                    .form-content__top-left
+                    .form-content__top-right
+                .container
+                    .form-main
+                        .form-main__capture
+                            .form-hair
+                                h1.form-writeable ЗАПИСЬ НА СТРИЖКУ
+                            .form-to
+                                .form-link
+                                    a.form-to__main(href='#') На главную
+                        form.form
+                            .form-main__data
+                                input.name(type='text', placeholder='Имя', required='')
+                                input.surname(type='text', placeholder='Фамилия', required='')
+                                input.patronymic(type='text', placeholder='Отчество', required='')
+                            .form-contact__data
+                                input.phone(type='text', placeholder='Контактный телефон', required='')
+                                input.mail(type='text', placeholder='Контактный email', required='')
+                            .form-text__data
+                                textarea.message(rows='5', placeholder='Доп.информация для мастера',required='')
+        .section-selection
+            .container
+                .selection-models
+                    h1.beard.lntxt ВЫБЕРИТЕ МОДЕЛЬ БОРОДЫ:
+                .selection-check__box
+                    ul.check-icon    
+                        li.icon-admiral
+                            label.check-box
+                                input(type='radio',name='radio')
+                                span.circle
+                            h2.label-text адмирал
+                            .admiral-picture
+                        li.icon-lumberjack
+                            label.check-box
+                                input(type='radio',name='radio')
+                                span.circle
+                            h2.label-text лесоруб
+                            .lumberjack-picture
+                        li.icon-polar-explorer
+                            label.check-box
+                                input(type='radio',name='radio')
+                                span.circle
+                            h2.label-text полярник
+                            .polar-explorer__picture
+                        li.icon-boyar
+                            label.check-box
+                                input.boyar(type='radio',name='radio')
+                                span.circle
+                            h2.label-text боярин
+                            .boyar-picture
+                        li.icon-sage
+                            label.check-box
+                                input.sage(type='radio',name='radio')
+                                span.circle
+                            h2.label-text мудрец
+                            .sage-picture
+                .selection-services
+                    h1.additional-services.lntxt ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ
+                .beard-hair__ul
+                    ul.beard-services
+                        li.beard-color
+                            input.service-color(type='checkbox',id="ser-1" name="ser-1" )
+                            label.service-color__text(for="ser-1") 
+                            h1.color-beard Подкрасить бороду
+                        li.beard-comb
+                            input.service-comb(type='checkbox',id="ser-2" name="ser-2")
+                            label.service-comb__text(for="ser-2") 
+                            h1.color-beard Причесать бороду
+                        li.beard-remove
+                            input.service-remove(type='checkbox',id="ser-3" name="ser-3")
+                            label.service-remove__text(for="ser-3")
+                            h1.color-beard Убрать седину
+                    ul.hair-services
+                        li.mustache
+                            input.service-mustache(type='checkbox',,id="ser-4" name="ser-4")
+                            label.service-mustache__text(for="ser-4") 
+                            h1.color-beard Накрутить усы
+                        li.trim-temple 
+                            input.trim-temple(type='checkbox',id="ser-5" name="ser-5")
+                            label.trim-temple__text(for="ser-5") 
+                            h1.color-beard Подровнять виски
+                        li.polish-bald
+                            input.polish-bald(type='checkbox',id="ser-6" name="ser-6")
+                            label.polish-bald__text(for="ser-6") 
+                            h1.color-beard Отполировать лысину
+                
+                .send-selection__request
+                    button.selection-request
+                        a.button-selection__text ОТПРАВИТЬ ЗАЯВКУ
+
+
+        include ../sections/footer
+
+
+
+
+
+
+
+
+
+        script(src='static/js/libs.min.js')
+        script(src='static/js/navigation.js')
+        
+        script(src='static/js/preloader.js')
+        script(src='static/js/main.js')
+
+            
+
+        
+
+

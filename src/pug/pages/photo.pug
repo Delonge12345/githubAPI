@@ -1,0 +1,185 @@
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    
+    link(rel="stylesheet", href="static/css/main.css")
+    
+    
+    block title
+       
+  body
+      .preloader
+        .cssload-container
+          .cssload-cube
+            .cssload-half1
+              .cssload-side.cssload-s1
+              .cssload-side.cssload-s2
+              .cssload-side.cssload-s5
+            .cssload-half2
+              .cssload-side.cssload-s3
+              .cssload-side.cssload-s4
+              .cssload-side.cssload-s6
+      .wrapper
+      
+        include ../sections/header
+        
+        content
+            include ../sections/content-picture__form
+            include ../sections/section-form
+            
+            .photo-main
+                .container
+                    .photo-main__capture
+                        .photo-works
+                             h1.photo-writeable Наши работы
+                        .photo-to
+                            .photo-link
+                                a.photo-to__main(href='#') На главную
+                    
+                    .photo-person
+                        .photo-profile__head
+                            a.prof(href='#')
+                        .photo-profile__title
+                            .photo-profile__button 
+                                .button-month 
+                                    .button-month__border
+                                        a.photo-link__works(href='#') РАБОТА МЕСЯЦА
+                            .photo-profile__description
+                                .photo-profile__name 
+                                    h1.photo-profile__man Лжепётр Мчиславский
+                                .photo-profile__text
+                                    p.photo-profile__means Где я только ни стригся,но так как делаете это вы - не умеет никто другой!Еще раз спасибо и до скорого!
+                            ul.photo-profile__service
+                                li.photo-profile__scissor
+                                    .photo-profile__scissor-icon
+                                    .photo-profile__scissor-text
+                                        h1.scissor-text__haircut СТРИЖКА
+                                li.photo-profile__shave
+                                    .photo-profile__shave-icon
+                                    .photo-profile__shave-text
+                                        h1.shave-text__beard БРИТЬЕ
+                                li.photo-profile__mustache
+                                    .photo-profile__mustache-icon
+                                    .photo-profile__mustache-text
+                                        h1.mustache-text__short-beard УСЫ
+                    ul.photo-pics
+                        li.photo-pics__left
+                            .pics-scissor
+                                a.sci(href='#')
+                            .pics-description
+                                .pics-name
+                                    h1.man-name Саша Мальцев
+                                .pics-text
+                                    p.man-text Попросил омолодить и омолодили!Кто теперь скажет,что мне 45?
+                                .pics-scissor__icons
+                                    .photo-profile__scissor-icon
+                                    .photo-profile__scissor-text
+                                        h1.scissor-text__haircut СТРИЖКА
+
+                        li.photo-pics__middle
+                            .pics-shave
+                                a.shv(href='#')
+                            .pics-description
+                                .pics-name
+                                    h1.man-name Владимир Иваныч
+                                .pics-text
+                                    p.man-text К зимнему сезону - готов!
+                                .pics-shave__icons
+                                    .photo-profile__shave
+                                        .photo-profile__shave-icon
+                                        .photo-profile__shave-text
+                                            h1.shave-text__beard БРИТЬЕ
+                                    .photo-profile__mustache
+                                        .photo-profile__mustache-icon
+                                        .photo-profile__mustache-text
+                                            h1.mustache-text__short-beard УСЫ
+                        li.photo-pics__right
+                            .pics-bald
+                                a.bld(href='#')
+                            .pics-description
+                                .pics-name
+                                    h1.man-name Винстон Синий
+                                .pics-text
+                                    p.man-text Как только заростаю и волосы начинают мешать видеть - бегом в Бородинский!
+                                .pics-scissor__icons
+                                    .photo-profile__scissor-icon
+                                    .photo-profile__scissor-text
+                                        h1.scissor-text__haircut СТРИЖКА
+
+
+
+            .section-price
+                .container
+                    .price-capt
+                        h1.price ПРЕЙСКУРАНТ
+                    .price-main
+                        .price-block
+                            ul.service-price
+                                li.stroke-one
+                                    .col-one
+                                        h1.stroke-number 1
+                                    .col-two
+                                        h1.stroke-name Классическая стрижка
+                                    .col-three
+                                        h1.stroke-service с мытьём головы
+                                    .col-four
+                                        h1.stroke-price 1500
+                                li.stroke-two
+                                    .col-one
+                                        h1.stroke-number 2
+                                    .col-two    
+                                        h1.stroke-name Современный вариант
+                                    .col-three
+                                        h1.stroke-service с мытьём головы   
+                                    .col-four
+                                        h1.stroke-price 1500
+                                li.stroke-three
+                                    .col-one
+                                        h1.stroke-number 3
+                                    .col-two    
+                                        h1.stroke-name Индивидуальный подход
+                                    .col-three
+                                        h1.stroke-service с мытьём головы
+                                    .col-four    
+                                        h1.stroke-price 2000
+                                li.stroke-four
+                                    .col-one
+                                        h1.stroke-number 4
+                                    .col-two    
+                                        h1.stroke-name Бритьё бороды
+                                    .col-three
+                                        h1.stroke-service без мытья
+                                    .col-four
+                                        h1.stroke-price 500
+                                li.stroke-five
+                                    .col-one
+                                        h1.stroke-number 5
+                                    .col-two    
+                                        h1.stroke-name Бритьё головы
+                                    .col-three
+                                        h1.stroke-service с мытьём головы
+                                    .col-four
+                                        h1.stroke-price 1000
+                        .price-time
+                            .price-time__block
+                                .price-clock
+                                    .price-clock_pict
+                                .price-text__time
+                                    h1.since-until С 10:00 до 14:00
+                                .price-text__discount
+                                    h1.percentage скидка 20%
+                                    
+                             
+                                    
+
+
+
+            include ../sections/footer
+            
+        script(src='static/js/libs.min.js')
+        script(src='static/js/navigation.js')
+        
+        script(src='static/js/preloader.js')
+        script(src='static/js/main.js')

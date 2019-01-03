@@ -1,0 +1,244 @@
+@media screen and (max-width: 1200px){
+    .container{
+        width: 970px;
+    }
+
+    .photo-profile__description {
+            
+        height: 40%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 992px){ //laptop
+        .container{
+            width: 750px;
+        }
+
+
+        .photo-profile__description {
+            
+            height: 25%;
+        }
+        ul.photo-profile__service {
+            
+            width: 390px;
+        }
+    }    
+
+
+
+
+
+
+    @media screen and (max-width: 768px){ //tablets
+        .container{
+            width: 480px;
+        }
+
+        h1.photo-profile__man {
+            font-size: 20px;
+          
+        }
+        .photo-profile__head {
+           height: 585px;
+            background-position: -235px;
+            background-size: inherit;
+        }
+        .photo-profile__text {
+            width: 320px;
+        }
+        ul.photo-profile__service {
+            width: 320px;
+        }
+        .photo-profile__description {
+            height: 50%;
+        }
+        .photo-profile__button {
+            
+            width: 150%;
+        }
+        .photo-main__capture {
+         
+            width: 600px;
+        }
+
+        ul.photo-pics {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        li.photo-pics__left, li.photo-pics__middle, li.photo-pics__right {
+            display: flex;
+             flex-direction: row; 
+            
+        }
+        ul.photo-pics {
+            
+            flex-direction: column;
+            
+        }
+        .section-price{
+            height:70%;
+        }
+
+        .pics-scissor,.pics-shave,.pics-bald{
+            width: 240px;
+            height: 240px;
+
+        }
+        .pics-description{
+            width: 280px;
+
+        }
+        li.photo-pics__left, li.photo-pics__middle, li.photo-pics__right {
+            height: 240px;
+            
+            width: 125%;}
+            .pics-description {
+                
+                height: 200px;
+                width: 60%;
+            }
+            .price-block {
+                width: 100%;
+            }
+            .price-time {
+                width: 100%;
+                
+            }
+            .price-main{
+                flex-direction: column;
+            }
+            .price-time__block {
+                height: 55%;
+                width: 100%;
+            }
+            .price-main {
+                width: 125%;
+            }
+            .price-clock_pict {
+                width: 120px;
+                height: 120px;
+            }
+            h1.stroke-number, h1.stroke-name, h1.stroke-service, h1.stroke-price {
+                font-size: 17px;
+            }
+            .photo-main {
+                width: 100%;
+               
+                
+            }
+            .price-time__block{
+                display: flex;
+            }
+
+            .photo-pics__left{
+                margin-bottom: 10px;
+            }
+            .photo-pics__right{
+                margin-top: 10px;
+            }
+            
+           
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 480px){ //phones
+        .container{
+            width: 95%;
+        }
+        .photo-main__capture{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .photo-main__capture {
+            width: 440px}
+            .photo-profile__button {
+                width: 100%;
+                height: 0;
+            }
+            h1.photo-profile__man {
+                font-size: 17px;
+            }
+            .photo-person {
+                display: flex;
+                
+                flex-direction: column;
+                height: 30%;
+                width: 100%;
+            }
+            .button-month {
+                position: absolute;
+                top: 565px;
+                right: 1px;
+            }
+            .photo-profile__description {
+                height: 20%;
+            }
+            .photo-main {
+                width: 100%;
+                height:2600px;
+            }
+            li.photo-pics__left, li.photo-pics__middle, li.photo-pics__right {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                height: 500px;
+                width: 125%;
+            }
+            .pics-scissor, .pics-shave, .pics-bald {
+                width: 300px;
+                height: 300px;
+            }
+            li.photo-pics__left, li.photo-pics__middle, li.photo-pics__right {
+               
+                width: 300px;
+            }
+            ul.photo-pics {
+                
+                align-items: center;
+            }
+
+            .photo-profile__means{
+                width: 100%;
+                height: 80%;
+        }
+            .man-name {
+                 font-size: 18px;}
+            .pics-shave__icons {
+                
+                width: 100%;}
+            .price-block {
+                 width: 80%;
+                }
+             h1.stroke-number, h1.stroke-name, h1.stroke-service, h1.stroke-price {
+                    font-size: 14px;
+                }
+                .price-time {
+                    width: 80%;
+                }
+}
+        

@@ -8,6 +8,7 @@ body {
     min-height: 100%;
     width: 100%;
     overflow-x: hidden;
+    background: #f8f5f2;
     // display: grid;
     // display: grid;
     // grid-template-columns: 1fr;
@@ -27,13 +28,20 @@ body {
 }
 
 @import 'libs.scss';
-@import 'header.scss';
-@import 'content.scss';
-@import 'news.scss';
-@import 'comments.scss';
-@import 'footer.scss';
+@import 'index/header.scss';
+@import 'index/content.scss';
+@import 'index/news.scss';
+@import 'index/comments.scss';
+@import 'index/footer.scss';
 @import 'preloader.scss';
-@import 'media.scss';
+@import 'form/form-content.scss';
+@import 'form/section-selection.scss';
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|PT+Sans:700)');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow&amp;subset=cyrillic)');
+@import 'photo/photo-content.scss';
+@import 'media/media-index.scss';
+@import 'media/media-form.scss';
+@import 'media/media-photo.scss';
 
 
 

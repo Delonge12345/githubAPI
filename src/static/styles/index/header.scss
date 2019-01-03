@@ -36,7 +36,9 @@ li.header-nav a {
     text-decoration: none;
     font-weight: bold;
     color: #fff;
-    font-family: "ptSans";
+    height: 4%;
+    display: block;
+    font-family: 'PT Sans', sans-serif;
     
     
     
@@ -50,7 +52,7 @@ li.header-nav:hover,.header-nav__log :hover,{
     text-decoration: none;
     font-weight: bold;
     color: #fff;
-    font-family: "ptSans";
+    font-family: 'PT Sans', sans-serif;
 }
 
 .menu {

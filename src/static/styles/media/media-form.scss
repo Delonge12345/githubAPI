@@ -1,0 +1,264 @@
+@media screen and (max-width: 1200px){
+    .container{
+        width: 970px;
+    }
+
+    .form-content__top-left{
+       
+        border-right: 590px solid transparent;
+        
+    }
+    .form-content__top-right{
+        
+        border-left: 590px solid transparent
+    }
+
+    .form-contact__data{
+        flex-direction: column;
+        padding-top: 30px;
+        height: 170px;
+    }
+    .form-text__data{
+        flex-direction: column;
+    }
+    input.mail, input.phone,textarea.message{
+        width: 100%;
+    }
+    .form-text__data{
+        display: flex;
+        height: 250px;
+        padding-top: 30px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px){ //laptop
+    .container{
+        width: 750px;
+    }
+
+    .beard-hair__ul{
+        display: flex;
+        justify-content: center;
+      
+    }
+    .beard-services,.hair-services{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 25%;
+        width: 50%;
+
+    }
+    ul.beard-services li, .hair-services li{
+
+    
+        width: 100%;
+    }
+    .section-selection{
+        height: 140%;
+    }
+
+    .form-content__top-left{
+       
+        border-right: 490px solid transparent;
+        
+    }
+    .form-content__top-right{
+        
+        border-left: 490px solid transparent
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){ //tablets
+    .container{
+        width: 480px;
+    }
+
+    .logo-position {
+        height: 45%;
+    }
+    .form-main__capture{
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    .form-to{
+        display: none;
+    }
+    .form-writeable{
+        font-size: 17px;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+    .form{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-around;
+    }
+    .form-main{
+        height: 750px;
+    }
+    .form-main__data{
+        flex-direction: column;
+        height: 30.5%;
+        
+    }
+    
+    .form-contact__data{
+        padding-top: 30px;
+        flex-direction: column;
+       height: 20%;
+       
+    }
+
+    .form-text__data{
+        padding-top: 30px;
+    }
+    input.name, input.surname, input.patronymic{
+        width: 100%;
+        
+    }
+    .form-content__top-left{
+       
+        border-right: 375px solid transparent;
+        
+    }
+    .form-content__top-right{
+        
+        border-left: 375px solid transparent
+    }
+
+    .color-beard {
+        font-size: 17px;
+    }
+    h2.label-text {
+        font-size: 17px;
+        
+    }
+    .footer-content__middle-contain{
+        width: 170px;
+    }
+    .footer-content__right-border{
+        width: 90%;
+        height: 40px;
+    }
+    .footer-content__right-developed{
+        width: 90%;
+    }
+
+    .icons__list{
+        width: 85%;
+    }
+
+
+    .footer-content__middle-icons{
+        justify-content: center;
+    }
+
+    .footer-right__containt-position{
+        width: 160px;
+    }
+
+    .icons-vk,.icons-fb,.icons-inst{
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px){ //phones
+    .container{
+        width: 95%;
+    }
+    .color-beard {
+        font-size: 13px;
+    }
+    .section-selection {
+        height: 165%;
+    }
+    .beard-services, .hair-services {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 20%;
+    }
+    .beard-hair__ul {
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+    }
+    .selection-services{
+        height: 10%;
+    }
+    .beard-services,.hair-services{
+        justify-content: space-around;
+    }
+    .color-beard {
+        font-size: 20px;
+    }
+  
+    .beard-services,.hair-services {
+        width: 70%;
+    }  
+     .footer-content__right-organization {
+        margin-top: 0px;
+    }
+    .footer-content__left-name, .footer-content__left-contact, .footer-content__left-adress, .footer-content__left-contact, .footer-content__right, .footer-content__middle-title {
+        font-size: 10px;
+    }
+}

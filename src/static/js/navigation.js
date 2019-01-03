@@ -15,6 +15,7 @@ $(window).resize(function() {
     if(wid > 760 && menu.is(':hidden')) {
             menu.removeAttr('style');
         }
+    
     });
 });
 

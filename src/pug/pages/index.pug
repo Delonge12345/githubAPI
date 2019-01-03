@@ -5,6 +5,9 @@ html(lang='en')
     meta(http-equiv='X-UA-Compatible', content='ie=edge')
     
     link(rel="stylesheet", href="static/css/main.css")
+
+    
+    
     
     block title
        
@@ -23,25 +26,7 @@ html(lang='en')
 
       .wrapper
       
-          header 
-            .container
-                .menu
-                  a.touch-menu(href='#')
-                    span.line
-                nav
-                  ul.header__list
-                    li.header-nav
-                      a.main(href='#') Главная
-                    li.header-nav
-                      a.works(href='#') Наши работы
-                    li.header-nav
-                      a.fill(href='#') Записаться
-                    li.header-nav
-                      a.contacts(href='#') Контакты
-                    li.header-nav
-                      a.html(href='#') HTML ACADEMY
-                    li.header-nav__log
-                      a.exit(href='#') Вход
+          include ../sections/header
                   
               
               
@@ -158,7 +143,7 @@ html(lang='en')
                       h1.comments-content__about-title Отзывы о нас
                   .comments-content__top-right
                     .comments-content__top-link  
-                      span.comments-content__selfs-link Оставить свой
+                      a.comments-content__selfs-link(href='#') Оставить свой
                     .overlay
                       .pop-up
                             h2.review Оставьте отзыв о нашем барбершопе:
@@ -216,35 +201,7 @@ html(lang='en')
                       .bottom-switch__left
                       .bottom-switch__middle
                       .bottom-switch__right
-          footer
-            .container
-              .footer-content
-                .footer-content__main
-                  .footer-content__left
-                    .footer-content__left-contain
-                      p.footer-content__left-name БАРБЕРШОП БОРОДИНСКИЙ
-                      .footer-content__left-info
-                        p.footer-content__left-adress г.Санкт-Петербург, ул.Большая Конюшенная 19/8
-                        p.footer-content__left-contact Тел.:+7(812) 555-66-66
-                  .footer-content__middle
-                    .footer-content__middle-contain
-                      p.footer-content__middle-title Давайте дружить!
-                      .footer-content__middle-icons
-                        ul.icons__list
-                            li.icons-vk
-                              a.vk(href='#') 
-                            li.icons-fb
-                              a.fb(href='#') 
-                            li.icons-inst
-                              a.inst(href='#') 
-                  
-                  
-                  .footer-content__right
-                    .footer-content__right-contain
-                      .footer-right__containt-position
-                        p.footer-content__right-developed Разработано:
-                        p.footer-content__right-organization HTML ACADEMY
-
+          include ../sections/footer
 
   
       
