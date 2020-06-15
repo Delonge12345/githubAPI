@@ -12,205 +12,28 @@ html(lang='en')
     block title
        
   body
-      .preloader
-        .cssload-container
-          .cssload-cube
-            .cssload-half1
-              .cssload-side.cssload-s1
-              .cssload-side.cssload-s2
-              .cssload-side.cssload-s5
-            .cssload-half2
-              .cssload-side.cssload-s3
-              .cssload-side.cssload-s4
-              .cssload-side.cssload-s6
 
-      .wrapper
+    #app
+
+
+
+    script(src='static/js/main.js', defer='', type="module")
       
-          include ../sections/header
-                  
-              
-              
-
-          content
-            .content-piscture
-              .container
-                  .logo-position
-                    .logo
-              .main-content
-                .container
-                  .main-content__all-parts
-                    .main-content__parts
-                      .main-content__top
-                        .main-content__top-left
-                          .main__haircut__block
-                            h1.main__haircut Стрижка у нас это выгодно!
-                          .main__data-block
-                            p.main__man-statics Мужская стрижка требует точного подхода.Обратимся к статистике:
-                            .main__false-position
-                              p.main__data-false *-приведенные данные ложь
-                        
-                        .main-content__top-middle
-                          ul.main-content__top-middle
-                            li.main-content__top-position
-                              .main-cost
-                                h1.main__number 1 500 *
-                                p.main__text  рублей вложений
-
-                            li.main-content__top-position
-                              .main-counthair
-                                h1.main__number 90 000
-                                p.main__text Постриженнных волос
-                        ul.main-content__top-right
-                          li.main-content__top-position 
-                            .main-time
-                              h1.main__number 7 200
-                              p.main__text секунд времени мастера
-                          li.main-content__top-position
-                            .main-likes
-                              h1.main__number 500 000 *
-                              p.main__text лайков и комплиментов
-                      ul.main-content__bottom
-                        li.main-content__bottom-left
-                          .main-logo__fast
-                            .fast-pict
-                          .logo-fast__title
-                            h1.main-title__logo Быстро
-                          .main-text__description-logo
-                            p.main-description__logo Мы делаем свою работу быстро!Два часа пролетят незаметно и вы - счастливый обладатель стильной стрижки-минутки
-
-                        li.main-content__bottom-middle
-                          .main-logo__cool
-                            .cool-pict
-                          .logo-cool__title  
-                            h1.main-title__logo Круто
-                          .main-text__description-logo 
-                            p.main-description__logo Забудьте,как вы стригл.Мы сделаем из вас звезду футбол.Во всяком случае внешне.
-
-                        li.main-content__bottom-right
-                          .main-logo__expensive
-                            .expensive-pict
-                          .logo-expensive__title
-                            h1.main-title__logo Дорого
-                          .main-text__description-logo
-                            p.main-description__logo Наши мастера - профессионалы своего дела и не могут сто.К тому же,разве цена не даёт определённый статус?
-                            
-          section-news
-            .news-content__top 
-                .news-content__top-left
-                .news-content__top-right
-
-            .container
-                
-                .news-content__middle
-                  .news-content__middle-left
-                    .new-content__title-contain
-                      h1.news-content__title Новости и акции
-                  .news-content__middle-right
-                    .news-content__show-link 
-                      a.news-link__show(href='#') Показать все
-                ul.news-content__bottom
-                  li.news-content__bottom-left
-                      .news-content__left
-                        .news-calendar__section
-                          .news-content__calendar-one
-                            p.news-calendar__one-number 29
-                            p.news-calendar__month Сент
-                          .news-calendar-one__triangle
-                        p.main-text__black Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во врем.
-                  li.news-content__bottom-middle
-                      .news-content__center
-                        .news-calendar__section
-                          .news-content__calendar-two
-                            p.news-calendar__second-number 19
-                            p.news-calendar__month Сент
-                          .news-calendar-two__triangle
-                        p.main-text__black В нашей команде пополнение, Борис "Бритва" Стригунец, пополнил наши стройные ряды. Спешите записаться!
-                  li.news-content__bottom-right
-                      .news-content__right
-                        .news-calendar__section
-                          .news-content__calendar-three
-                            p.news-calendar__third-number 29
-                            p.news-calendar__month Сент
-                          .news-calendar-three__triangle
-                        p.main-text__black Все дорожает, а наши стрижки нет! Как так? Приходите, постригитесь и узнаете, в чем здесь подвох!
-
-          section-comments
-            .container
-              .comments-content
-                .comments-content__top
-                  .comments-content__top-left
-                    .comments-contentent__top-about
-                      h1.comments-content__about-title Отзывы о нас
-                  .comments-content__top-right
-                    .comments-content__top-link  
-                      a.comments-content__selfs-link(href='#') Оставить свой
-                    .overlay
-                      .pop-up
-                            h2.review Оставьте отзыв о нашем барбершопе:
-                            form.postcard(action='')
-                              .form-row
-                                label(for='name') Ваше имя
-                                input#name(type='text', required='')
-                              .form-row
-                                label(for='email') Ваш Email
-                                input#email(type='email', required='')
-                              .form-row
-                                label(for='message') Ваше сообщение
-                                textarea#message(rows='5', required='')
-                              .form-row
-                                input(type='submit', value='Отправить сообщение') 
-                            .close-popup
-                              .js-close__compaign  
 
 
 
-                .comments-content__middle
-                    .slider__left-button
-                      .left-button__triangle
-                    .slider-content__middle
-                      .slider-img__description
-                        .slider-img__direction-contain
-                          .slider__img
-                            .slider__img-barker
-                          .slider__description
-                            .slider__description-content
-                              p.slider__description-name Трэвис Баркер
-                                p.slider__description-gratitude Спасибо за лысину!Был проездом в Москве,заскочил побриться, чтобы было видно новую татуировку!
-                                                    .slider-content__middle
-                      .slider-img__description
-                        .slider-img__direction-contain
-                          .slider__img
-                            .slider__img-barker
-                          .slider__description
-                            .slider__description-content
-                              p.slider__description-name Трэвис Баркер
-                                p.slider__description-gratitude Спасибо за лысину!Был проездом в Москве,заскочил побриться, чтобы было видно новую татуировку!
-                      .slider-img__description
-                        .slider-img__direction-contain
-                          .slider__img
-                            .slider__img-barker
-                          .slider__description
-                            .slider__description-content
-                              p.slider__description-name Трэвис Баркер
-                                p.slider__description-gratitude Спасибо за лысину!Был проездом в Москве,заскочил побриться, чтобы было видно новую татуировку!
-                    .slider__right-button
-                        .right-button__triangle
-                .comments-content__bottom
-                  .comments-content__bottom-switch
-                    .comments-bottom__switch
-                      .bottom-switch__left
-                      .bottom-switch__middle
-                      .bottom-switch__right
-          include ../sections/footer
 
-  
-      
-      script(src='static/js/libs.min.js')
-      script(src='static/js/navigation.js')
-      script(src='static/js/popup.js')
-      script(src='static/js/preloader.js')
-      script(src='static/js/main.js')
-     
+
+
+
+
+
+
+
+
+
+
+
       
       
 

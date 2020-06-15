@@ -11,7 +11,6 @@ module.exports = function () {
 
 
 
-
     includes.gulp.task('scripts', function () {
         return includes.gulp.src('src/static/js/main.js')
             .pipe(includes.gulp.dest('build/static/js/'))
@@ -20,28 +19,38 @@ module.exports = function () {
             }));
     });
 
+    includes.gulp.task('scripts', function () {
+        return includes.gulp.src('src/static/js/api.js')
+            .pipe(includes.gulp.dest('build/static/js/'))
+            .pipe(includes.browserSync.reload({
+                stream:true
+            }));
+    });
+
+    includes.gulp.task('scripts', function () {
+        return includes.gulp.src('src/static/js/log.js')
+            .pipe(includes.gulp.dest('build/static/js/'))
+            .pipe(includes.browserSync.reload({
+                stream:true
+            }));
+    });
+
+    includes.gulp.task('scripts', function () {
+        return includes.gulp.src('src/static/js/search.js')
+            .pipe(includes.gulp.dest('build/static/js/'))
+            .pipe(includes.browserSync.reload({
+                stream:true
+            }));
+    });
+
+    includes.gulp.task('scripts', function () {
+        return includes.gulp.src('src/static/js/view.js')
+            .pipe(includes.gulp.dest('build/static/js/'))
+            .pipe(includes.browserSync.reload({
+                stream:true
+            }));
+    });
+
     
-    includes.gulp.task('scripts', function () {
-        return includes.gulp.src('src/static/js/navigation.js')
-            .pipe(includes.gulp.dest('build/static/js/'))
-            .pipe(includes.browserSync.reload({
-                stream:true
-            }));
-    });
-
-    includes.gulp.task('scripts', function () {
-        return includes.gulp.src('src/static/js/popup.js')
-            .pipe(includes.gulp.dest('build/static/js/'))
-            .pipe(includes.browserSync.reload({
-                stream:true
-            }));
-    });
-
-    includes.gulp.task('scripts', function () {
-        return includes.gulp.src('src/static/js/preloader.js')
-            .pipe(includes.gulp.dest('build/static/js/'))
-            .pipe(includes.browserSync.reload({
-                stream:true
-            }));
-    });
+   
 };

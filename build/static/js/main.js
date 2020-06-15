@@ -1,15 +1,9 @@
-
-$(document).ready(function () {
-  $('.slider-content__middle').slick({
-    infinite: true,
-    prevArrow: $('.slider__left-button'),
-    nextArrow: $('.slider__right-button'),
-  
-  
-    
-  });
-  
-});
+import {LOG} from './log.js'
+import {API} from './api.js'
+import {VIEW} from './view.js'
+import {Search} from './search.js'
 
 
+const api = new API();
 
+new Search(new LOG(), api, new VIEW(api));
